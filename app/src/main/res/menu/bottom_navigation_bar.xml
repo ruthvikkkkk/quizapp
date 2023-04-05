@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/quiz"
+        android:title="quiz"
+        android:icon="@drawable/baseline_quiz_24"
+        />
+
+
+
+    <item
+        android:id="@+id/upcomingcontests"
+        android:title="upcoming"
+        android:icon="@drawable/baseline_upcoming_24"
+        />
+
+    <item
+        android:id="@+id/dynamic"
+        android:title="dynamic"
+        android:icon="@drawable/baseline_dynamic_feed_24"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/userprofile"
+        />
+
+
+
+
+</menu>

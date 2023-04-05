@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Login in to your Account"
+        android:textColor="#AB3946BF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <EditText
+        android:id="@+id/et_login_uname"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backgroundedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="uname"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:background="@drawable/backgroundedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="314dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#AB3946BF"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="312dp"
+        android:layout_height="51dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#AB3946BF"
+        android:text="Don't have an account?register"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_login"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#A2D8DC"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
